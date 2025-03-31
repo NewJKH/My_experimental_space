@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b693d6-5ddb-477b-a42f-eebabc21dfd7" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyTestRoom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/GenericRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/method/MethodGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/multi/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/single/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/fisrt/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/fisrt/domain/base/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/fisrt/domain/base/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/fisrt/domain/base/PaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/fisrt/domain/credit/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/fisrt/domain/credit/CreditCardProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/fisrt/domain/paypal/PayPal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/fisrt/domain/paypal/PaypalProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/fisrt/domain/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/fisrt/factory/PaymentProcessorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/fisrt/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +42,11 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "애플리케이션.Main.executor": "Run"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
@@ -73,6 +58,20 @@
       <option name="presentableId" value="Default" />
       <updated>1743421190144</updated>
     </task>
+    <task id="LOCAL-00001" summary="generic test">
+      <option name="closed" value="true" />
+      <created>1743435374562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743435374562</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="generic test" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic test" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
