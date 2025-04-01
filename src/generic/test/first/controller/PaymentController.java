@@ -19,7 +19,6 @@ public class PaymentController {
         PaymentProcessor<PayPal> ppProcessor = factory.getProcessor(PayPal.class);
         PaymentService<PayPal> ppService = new PaymentService<>(payPal, ppProcessor);
         ppService.process();
-
     }
 
 }
