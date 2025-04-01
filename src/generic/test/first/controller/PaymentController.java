@@ -1,10 +1,10 @@
-package generic.test.fisrt.controller;
+package generic.test.first.controller;
 
-import generic.test.fisrt.domain.base.PaymentProcessor;
-import generic.test.fisrt.domain.credit.CreditCard;
-import generic.test.fisrt.domain.paypal.PayPal;
-import generic.test.fisrt.domain.service.PaymentService;
-import generic.test.fisrt.factory.PaymentProcessorFactory;
+import generic.test.first.domain.base.PaymentProcessor;
+import generic.test.first.domain.credit.CreditCard;
+import generic.test.first.domain.paypal.PayPal;
+import generic.test.first.domain.service.PaymentService;
+import generic.test.first.factory.PaymentProcessorFactory;
 
 public class PaymentController {
     public void pay(){

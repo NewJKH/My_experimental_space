@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b693d6-5ddb-477b-a42f-eebabc21dfd7" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generic/test/fisrt/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/GenericRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/GenericRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/test/fisrt/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/test/first/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/test/fisrt/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/test/first/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/test/fisrt/domain/base/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/test/first/domain/base/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/test/fisrt/domain/base/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/test/first/domain/base/PaymentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/test/fisrt/domain/base/PaymentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/test/first/domain/base/PaymentProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/test/fisrt/domain/credit/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/test/first/domain/credit/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/test/fisrt/domain/credit/CreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/test/first/domain/credit/CreditCardProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/test/fisrt/domain/paypal/PayPal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/test/first/domain/paypal/PayPal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/test/fisrt/domain/paypal/PaypalProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/test/first/domain/paypal/PaypalProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/test/fisrt/domain/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/test/first/domain/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/test/fisrt/factory/PaymentProcessorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/test/first/factory/PaymentProcessorFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2v53cjbPZYv5FI6TskFv42xVXhW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,20 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "애플리케이션.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -66,7 +78,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743435374562</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="generic test">
+      <option name="closed" value="true" />
+      <created>1743436702807</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743436702807</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

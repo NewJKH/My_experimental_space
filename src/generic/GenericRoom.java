@@ -2,12 +2,12 @@ package generic;
 
 import generic.multi.Pair;
 import generic.single.Box;
-import generic.test.fisrt.controller.PaymentController;
+import generic.test.first.controller.PaymentController;
 
 public class GenericRoom {
     public void enable(){
-//        single();
-//        multi();
+//        single(); 제네릭
+//        multi(); 복수 제네릭
 
         pay();
 

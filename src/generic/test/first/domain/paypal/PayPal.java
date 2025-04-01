@@ -1,6 +1,6 @@
-package generic.test.fisrt.domain.paypal;
+package generic.test.first.domain.paypal;
 
-import generic.test.fisrt.domain.base.Payment;
+import generic.test.first.domain.base.Payment;
 
 public record PayPal(String email, String password) implements Payment {
     @Override

@@ -1,7 +1,7 @@
-package generic.test.fisrt.domain.paypal;
+package generic.test.first.domain.paypal;
 
-import generic.test.fisrt.domain.base.PaymentMethod;
-import generic.test.fisrt.domain.base.PaymentProcessor;
+import generic.test.first.domain.base.PaymentMethod;
+import generic.test.first.domain.base.PaymentProcessor;
 
 public class PaypalProcessor
         implements PaymentProcessor<PayPal>,PaymentMethod {

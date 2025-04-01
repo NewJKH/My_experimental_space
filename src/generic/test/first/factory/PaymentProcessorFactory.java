@@ -1,9 +1,9 @@
-package generic.test.fisrt.factory;
+package generic.test.first.factory;
 
-import generic.test.fisrt.domain.base.Payment;
-import generic.test.fisrt.domain.base.PaymentProcessor;
-import generic.test.fisrt.domain.credit.CreditCardProcessor;
-import generic.test.fisrt.domain.paypal.PaypalProcessor;
+import generic.test.first.domain.base.Payment;
+import generic.test.first.domain.base.PaymentProcessor;
+import generic.test.first.domain.credit.CreditCardProcessor;
+import generic.test.first.domain.paypal.PaypalProcessor;
 
 import java.util.HashMap;
 import java.util.Map;

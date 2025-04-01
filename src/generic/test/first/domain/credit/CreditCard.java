@@ -1,6 +1,6 @@
-package generic.test.fisrt.domain.credit;
+package generic.test.first.domain.credit;
 
-import generic.test.fisrt.domain.base.Payment;
+import generic.test.first.domain.base.Payment;
 
 public record CreditCard(String card, String end) implements Payment {
     @Override

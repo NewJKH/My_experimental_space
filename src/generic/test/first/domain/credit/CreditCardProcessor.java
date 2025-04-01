@@ -1,6 +1,6 @@
-package generic.test.fisrt.domain.credit;
+package generic.test.first.domain.credit;
 
-import generic.test.fisrt.domain.base.PaymentProcessor;
+import generic.test.first.domain.base.PaymentProcessor;
 
 public class CreditCardProcessor
         implements PaymentProcessor<CreditCard> {

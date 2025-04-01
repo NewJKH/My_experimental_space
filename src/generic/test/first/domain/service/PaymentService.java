@@ -1,7 +1,7 @@
-package generic.test.fisrt.domain.service;
+package generic.test.first.domain.service;
 
-import generic.test.fisrt.domain.base.Payment;
-import generic.test.fisrt.domain.base.PaymentProcessor;
+import generic.test.first.domain.base.Payment;
+import generic.test.first.domain.base.PaymentProcessor;
 
 public class PaymentService<T extends Payment> {
     private final T payment;
