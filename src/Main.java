@@ -1,7 +1,14 @@
-import generic.GenericRoom;
+import progremmers.core.ProMachine;
 
 public class Main {
     public static void main(String[] args) {
-        new GenericRoom().enable();
+//        new GenericRoom().enable();
+
+        new ProMachine().boot();
+
+
+
+
     }
+
 }

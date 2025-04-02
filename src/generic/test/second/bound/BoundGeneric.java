@@ -13,5 +13,6 @@ public class BoundGeneric <T extends Payment & Comparable<T> & PaymentMethod>{
         t.getAmount(); // 이건 Payment
         t.pay(); // 이건 PaymentMethod
         t.compareTo(t); // 이건 Comparable
+       
     }
 }
