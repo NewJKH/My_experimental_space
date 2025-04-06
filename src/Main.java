@@ -5,10 +5,5 @@ public class Main {
 //        new GenericRoom().enable();
 
         new ProMachine().boot();
-
-
-
-
     }
-
 }
