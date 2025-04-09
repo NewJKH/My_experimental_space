@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b693d6-5ddb-477b-a42f-eebabc21dfd7" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/threadasync/CookMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadasync/controller/CookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadasync/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadasync/domain/food/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadasync/domain/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadasync/domain/order/OrderQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadasync/domain/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadasync/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threadasync/core/thread/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threadasync/domain/order/OrderGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadasync/CookMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadasync/CookMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadasync/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadasync/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadasync/domain/order/OrderQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadasync/domain/order/OrderQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadasync/domain/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadasync/domain/order/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
     "project.structure.last.edited": "프로젝트",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "애플리케이션.Main.executor": "Debug"
+    "애플리케이션.Main.executor": "Run"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -153,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744097678819</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="충돌">
+      <option name="closed" value="true" />
+      <created>1744163550140</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744163550140</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

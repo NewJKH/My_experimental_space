@@ -1,22 +1,20 @@
 package threadasync.domain.order;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 
 public class OrderQueue {
-    private final Queue<Order> orders;
+    private final BlockingQueue<Order> queue = new LinkedBlockingQueue<>();
 
-    public OrderQueue() {
-        orders = new ArrayDeque<>();
+    public void add(Order order) {
+        queue.offer(order);
     }
 
-    public Queue<Order> getOrders() {
-        return orders;
+    public Order take() throws InterruptedException {
+        return queue.take(); // 요리사가 꺼내감
     }
-    public void addOrder(Order order){
-        this.orders.add(order);
-    }
-    public void finishOrder(){
-        orders.remove();
+
+    public boolean isEmpty() {
+        return queue.isEmpty();
     }
 }
