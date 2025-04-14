@@ -1,4 +1,4 @@
-package optional.test1.service;
+package optional.test1.util;
 
 import optional.test1.domain.common.Entity;
 
@@ -6,18 +6,19 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class EntityService {
+public class EntityFinder {
     private final List<Entity> entities;
 
-    public EntityService(List<Entity> entities) {
+    public EntityFinder(List<Entity> entities) {
         this.entities = entities;
     }
 
 
     public Optional<List<Entity>> getEntities() {
-        return Optional.ofNullable(entities.isEmpty() ? null : entities);
+        return entities.isEmpty()
+                ? Optional.empty()
+                : Optional.of(entities);
     }
-
 
     public <T extends Entity> Optional<List<T>> getEntities(Class<T> type) {
         List<T> filtered = entities.stream()
@@ -25,7 +26,9 @@ public class EntityService {
                 .map(type::cast)
                 .collect(Collectors.toList());
 
-        return Optional.ofNullable(filtered.isEmpty() ? null : filtered);
+        return filtered.isEmpty()
+                ? Optional.empty()
+                : Optional.of(filtered);
     }
 }
 
