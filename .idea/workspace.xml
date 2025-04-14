@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b693d6-5ddb-477b-a42f-eebabc21dfd7" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/threadasync/core/thread/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadasync/domain/order/OrderGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadasync/CookMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadasync/CookMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadasync/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadasync/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadasync/domain/order/OrderQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadasync/domain/order/OrderQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadasync/domain/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadasync/domain/order/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadasync/core/thread/Chef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadasync/core/thread/Chef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
     "project.structure.last.edited": "프로젝트",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "애플리케이션.Main.executor": "Run"
+    "애플리케이션.Main.executor": "Debug"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -159,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744163550140</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="충돌">
+      <option name="closed" value="true" />
+      <created>1744172916305</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744172916305</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

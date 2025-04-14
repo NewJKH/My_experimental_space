@@ -31,7 +31,7 @@ public class Chef {
     private void processCooking(String name, BlockingQueue<Integer> queue, int cookTime) {
         while (true) {
             try {
-                Integer amount = queue.take(); // 대기열에서 주문 꺼냄
+                int amount = queue.take(); // 대기열에서 주문 꺼냄
                 System.out.println("[시작] " + name + " 요리 " + amount + "개");
                 for (int i = 1; i <= amount; i++) {
                     System.out.println(" - " + name + " " + i + "번 조리 중...");
