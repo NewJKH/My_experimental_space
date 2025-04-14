@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b693d6-5ddb-477b-a42f-eebabc21dfd7" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/optional/OptionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/domain/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/domain/animal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/domain/animal/Pig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/domain/monster/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/domain/monster/Zombie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/domain/player/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/domain/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/domain/common/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/player/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/player/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,25 +38,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sprtm/OneDrive/Desktop/sparta&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Debug&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/sprtm/OneDrive/Desktop/sparta",
+    "project.structure.last.edited": "프로젝트",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "애플리케이션.Main.executor": "Debug"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sprtm\OneDrive\Desktop\sparta\MyTestRoom\src\htmlcomplic" />
@@ -150,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744097678819</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="충돌">
+      <option name="closed" value="true" />
+      <created>1744599488072</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744599488072</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
