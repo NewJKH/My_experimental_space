@@ -145,9 +145,7 @@ public class MarketService {
         Optional<Product> productOpt = Optional.ofNullable(productStore.get(productId));
         if (productOpt.isPresent()) {
             Optional<Review> r = productOpt.get().getReview();
-            r.ifPresent(review -> {
-                System.out.println(" 상품 : "+productId+" "+ review.getContent());
-            });
+            r.ifPresent(review -> System.out.println(" 상품 : "+productId+" "+ review.getContent()));
         } else {
             System.out.println("리뷰가 없습니다.");
         }

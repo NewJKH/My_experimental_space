@@ -22,7 +22,9 @@ public class Market {
      */
     public void start(){
         MarketController con = new MarketController(new MarketService());
-
+        con.addProductToCart(100,1,3);
+        con.showCart(100);
+        con.checkout(100);
 
     }
 }
