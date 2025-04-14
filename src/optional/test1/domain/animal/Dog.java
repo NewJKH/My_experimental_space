@@ -1,6 +1,6 @@
-package optional.domain.animal;
+package optional.test1.domain.animal;
 
-import optional.domain.common.Entity;
+import optional.test1.domain.common.Entity;
 
 import java.util.Optional;
 

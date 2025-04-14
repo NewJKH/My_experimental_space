@@ -5,16 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/optional/service/EntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/test2/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/product/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/product/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/user/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/user/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/user/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/OptionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/animal/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/animal/Pig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Zombie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/OptionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/animal/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/animal/Pig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/common/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/common/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/monster/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/monster/Spider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/monster/Zombie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/player/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/player/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/service/EntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/service/EntityService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,19 +34,62 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NewJKH"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://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@github.com/NewJKH/My_experimental_space.git",
+    "accountId": "5a66da97-34c4-4605-8ba5-30966f416055"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2vhttG0RKXQJGIkL7ITgQN4fyj7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true",
     "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/NewJKH/My_experimental_space&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -54,8 +107,27 @@
       <option name="project" value="LOCAL" />
       <updated>1744601710080</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit merge">
+      <option name="closed" value="true" />
+      <created>1744603995099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744603995099</updated>
+    </task>
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="" />
+      <created>1744609348003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744609348003</updated>
+      <workItem from="1744609863180" duration="2165000" />
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/NewJKH/My_experimental_space&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />

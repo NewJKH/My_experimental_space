@@ -1,4 +1,4 @@
-import optional.OptionalTest;
+import optional.test1.OptionalTest;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {

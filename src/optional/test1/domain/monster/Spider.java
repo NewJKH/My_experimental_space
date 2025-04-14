@@ -1,6 +1,6 @@
-package optional.domain.monster;
+package optional.test1.domain.monster;
 
-import optional.domain.common.Entity;
+import optional.test1.domain.common.Entity;
 
 import java.util.Optional;
 

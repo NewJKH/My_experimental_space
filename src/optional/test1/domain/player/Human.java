@@ -1,4 +1,4 @@
-package optional.domain.player;
+package optional.test1.domain.player;
 
 import java.util.UUID;
 

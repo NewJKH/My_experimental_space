@@ -1,4 +1,4 @@
-package optional.domain.common;
+package optional.test1.domain.common;
 
 import java.util.Optional;
 

@@ -1,16 +1,16 @@
-package optional.domain.animal;
+package optional.test1.domain.monster;
 
-import optional.domain.common.Entity;
+import optional.test1.domain.common.Entity;
 
 import java.util.Optional;
 
-public class Pig implements Animal {
+public class Zombie implements Monster {
     private final String name;
     private final double hp;
     private final double damage;
     private final double speed;
 
-    public Pig(String name, double hp, double damage, double speed) {
+    public Zombie(String name, double hp, double damage, double speed) {
         this.name = name;
         this.hp = hp;
         this.damage = damage;
@@ -36,6 +36,7 @@ public class Pig implements Animal {
     public double getSpeed() {
         return speed;
     }
+
     @Override
     public Optional<Entity> getEntity() {
         return Optional.of(this);
