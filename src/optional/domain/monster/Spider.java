@@ -1,6 +1,37 @@
 package optional.domain.monster;
 
-public class Spider {
-    double hp;
+import optional.domain.common.Entity;
 
+public class Spider implements Entity,Monster {
+    private final String name;
+    private final double hp;
+    private final double damage;
+    private final double speed;
+
+    public Spider(String name, double hp, double damage, double speed) {
+        this.name = name;
+        this.hp = hp;
+        this.damage = damage;
+        this.speed = speed;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public double getHealth() {
+        return hp;
+    }
+
+    @Override
+    public double getDamage() {
+        return damage;
+    }
+
+    @Override
+    public double getSpeed() {
+        return speed;
+    }
 }

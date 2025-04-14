@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4b693d6-5ddb-477b-a42f-eebabc21dfd7" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/optional/domain/common/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Monster.java" afterDir="false" />
+    <list default="true" id="e4b693d6-5ddb-477b-a42f-eebabc21dfd7" name="변경" comment="테스트">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/animal/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/animal/Pig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/player/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/player/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Zombie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744599488072</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="충돌">
+      <option name="closed" value="true" />
+      <created>1744600911667</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744600911667</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
