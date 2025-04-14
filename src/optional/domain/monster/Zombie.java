@@ -4,7 +4,7 @@ import optional.domain.common.Entity;
 
 import java.util.Optional;
 
-public class Zombie implements Entity,Monster {
+public class Zombie implements Monster {
     private final String name;
     private final double hp;
     private final double damage;

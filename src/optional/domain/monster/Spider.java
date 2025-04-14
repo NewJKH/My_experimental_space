@@ -4,7 +4,7 @@ import optional.domain.common.Entity;
 
 import java.util.Optional;
 
-public class Spider implements Entity,Monster {
+public class Spider implements Monster {
     private final String name;
     private final double hp;
     private final double damage;

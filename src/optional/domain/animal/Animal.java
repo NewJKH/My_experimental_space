@@ -1,4 +1,6 @@
 package optional.domain.animal;
 
-public interface Animal {
+import optional.domain.common.Entity;
+
+public interface Animal extends Entity {
 }

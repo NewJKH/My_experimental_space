@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/optional/service/EntityService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/optional/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/OptionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/animal/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/animal/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/animal/Pig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/common/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/common/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Monster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Zombie.java" afterDir="false" />
     </list>
@@ -18,12 +21,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
   <component name="TaskManager">
@@ -35,13 +46,22 @@
       <option name="project" value="LOCAL" />
       <updated>1744601419863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit merge">
+      <option name="closed" value="true" />
+      <created>1744601710080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744601710080</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/NewJKH/My_experimental_space&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
     <MESSAGE value="Merge branch 'master' of https://github.com/NewJKH/My_experimental_space&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/NewJKH/My_experimental_space&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="commit merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit merge" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

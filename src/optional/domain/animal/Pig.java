@@ -4,7 +4,7 @@ import optional.domain.common.Entity;
 
 import java.util.Optional;
 
-public class Pig implements Entity, Animal {
+public class Pig implements Animal {
     private final String name;
     private final double hp;
     private final double damage;

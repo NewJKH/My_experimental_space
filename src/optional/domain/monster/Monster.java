@@ -1,7 +1,6 @@
 package optional.domain.monster;
 
-public interface Monster {
-    double getHealth();
-    double getDamage();
-    double getSpeed();
+import optional.domain.common.Entity;
+
+public interface Monster extends Entity {
 }
