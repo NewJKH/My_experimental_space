@@ -15,7 +15,6 @@ import java.util.Optional;
 public class MarketService {
     private final Map<Integer, Product> productStore = new HashMap<>();
     private final Map<Integer, User> userStore = new HashMap<>();
-    private final Map<Integer, Review> reviewStore = new HashMap<>();
 
     private int orderSequence = 1;
 
