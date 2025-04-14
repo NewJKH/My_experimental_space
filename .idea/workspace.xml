@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4b693d6-5ddb-477b-a42f-eebabc21dfd7" name="변경" comment="" />
+    <list default="true" id="e4b693d6-5ddb-477b-a42f-eebabc21dfd7" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadasync/core/thread/Chef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadasync/core/thread/Chef.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +16,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Record" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,7 +41,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/sprtm/OneDrive/Desktop/sparta",
@@ -45,12 +52,12 @@
     "project.structure.side.proportion": "0.0",
     "애플리케이션.Main.executor": "Debug"
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sprtm\OneDrive\Desktop\sparta\MyTestRoom\src\htmlcomplic" />
@@ -140,29 +147,21 @@
     </task>
     <task id="LOCAL-00010" summary="충돌">
       <option name="closed" value="true" />
-      <created>1744599488072</created>
+      <created>1744163550140</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1744599488072</updated>
+      <updated>1744163550140</updated>
     </task>
     <task id="LOCAL-00011" summary="충돌">
       <option name="closed" value="true" />
-      <created>1744600911667</created>
+      <created>1744172916305</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1744600911667</updated>
+      <updated>1744172916305</updated>
     </task>
-    <task id="LOCAL-00012" summary="Optional">
-      <option name="closed" value="true" />
-      <created>1744601107635</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1744601107636</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,10 +178,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="generic test" />
     <MESSAGE value="충돌" />
-    <MESSAGE value="테스트" />
-    <MESSAGE value="Optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="충돌" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
