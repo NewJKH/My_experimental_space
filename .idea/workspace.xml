@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/optional/test2/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/product/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/product/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/user/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/user/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/test2/api/controller/MarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/service/MarketService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/OptionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/animal/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/animal/Pig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/common/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/common/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/monster/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/monster/Spider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/monster/Zombie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/player/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/player/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/domain/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/domain/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/service/EntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/service/EntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/product/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/product/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/user/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/user/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/user/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/user/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,9 +109,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744609348003</updated>
-      <workItem from="1744609863180" duration="2165000" />
+      <workItem from="1744609863180" duration="2764000" />
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit merge">
+      <option name="closed" value="true" />
+      <created>1744612130304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744612130304</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
