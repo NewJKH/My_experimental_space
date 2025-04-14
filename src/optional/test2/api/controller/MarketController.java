@@ -9,8 +9,25 @@ public class MarketController {
         this.service = service;
     }
 
-    public void addToCart(int userId, int productId, int quantity){
-
+    public void addProductToCart(int userId, int productId, int quantity) {
+        service.addToCart(userId, productId, quantity);
     }
+
+    public void showCart(int userId) {
+        service.printCart(userId);
+    }
+
+    public void checkout(int userId) {
+        service.processCheckout(userId);
+    }
+
+    public void writeReview(int orderId, int rating, String content) {
+        service.saveReview(orderId, rating, content);
+    }
+
+    public void viewReview(int orderId) {
+        service.printReview(orderId);
+    }
+
 
 }

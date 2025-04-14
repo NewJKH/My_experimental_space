@@ -1,21 +1,17 @@
 package optional.test2.domain.user;
 
-import java.util.List;
-import java.util.UUID;
-
 public class User {
-    private final UUID userUnique;
+    private final int userUnique;
     private double account;
+    private final Cart cart;
 
-    private List<Cart> cart;
-
-    public User(UUID userUnique, double account, List<Cart> cart) {
+    public User(int userUnique, double account) {
         this.userUnique = userUnique;
         this.account = account;
-        this.cart = cart;
+        this.cart = new Cart();
     }
 
-    public UUID getUserUnique() {
+    public int getUserUnique() {
         return userUnique;
     }
 
@@ -27,11 +23,7 @@ public class User {
         this.account = account;
     }
 
-    public List<Cart> getCart() {
+    public Cart getCart() {
         return cart;
-    }
-
-    public void setCart(List<Cart> cart) {
-        this.cart = cart;
     }
 }

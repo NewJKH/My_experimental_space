@@ -1,17 +1,16 @@
 package optional.test2.domain.product;
 
 import java.util.Date;
-import java.util.UUID;
 
 public class Review {
-    private final UUID userId;
+    private final int userId;
     private final int productId;
 
     private int star;
     private String content;
     private Date currentDate;
 
-    public Review(UUID userId, int id, int star, String content, Date currentDate) {
+    public Review(int userId, int id, int star, String content, Date currentDate) {
         this.userId = userId;
         this.productId = id;
         this.star = star;
@@ -23,7 +22,7 @@ public class Review {
         return productId;
     }
 
-    public UUID getUserId() {
+    public int getUserId() {
         return userId;
     }
 

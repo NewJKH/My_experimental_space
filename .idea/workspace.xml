@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/optional/test2/api/controller/MarketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/service/MarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/test2/domain/user/CartItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/product/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/product/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/user/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test2/api/controller/MarketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/api/controller/MarketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/product/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/product/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/service/MarketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/service/MarketService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/user/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/user/Cart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/user/User.java" afterDir="false" />
     </list>
@@ -109,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744609348003</updated>
-      <workItem from="1744609863180" duration="2764000" />
+      <workItem from="1744609863180" duration="5038000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -119,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744612130304</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit merge">
+      <option name="closed" value="true" />
+      <created>1744612636147</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744612636147</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

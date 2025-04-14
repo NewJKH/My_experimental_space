@@ -1,27 +1,33 @@
 package optional.test2.domain.user;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
 public class Cart {
-    private int productId;
-    private int ea;
+    private final List<CartItem> items = new ArrayList<>();
 
-    public Cart(int productId, int ea) {
-        this.productId = productId;
-        this.ea = ea;
+    public List<CartItem> getItems() {
+        return items;
     }
 
-    public int getProductId() {
-        return productId;
+    public void addItem(int productId, int quantity) {
+        for (CartItem item : items) {
+            if (item.getProductId() == productId) {
+                item.addQuantity(quantity);
+                return;
+            }
+        }
+        items.add(new CartItem(productId, quantity));
+    }
+    public Optional<CartItem> findItem(int productId) {
+        return items.stream()
+                .filter(item -> item.getProductId() == productId)
+                .findFirst();
     }
 
-    public void setProductId(int productId) {
-        this.productId = productId;
-    }
 
-    public int getEa() {
-        return ea;
-    }
-
-    public void setEa(int ea) {
-        this.ea = ea;
+    public void clear() {
+        items.clear();
     }
 }
