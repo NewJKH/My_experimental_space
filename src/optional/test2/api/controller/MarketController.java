@@ -3,7 +3,7 @@ package optional.test2.api.controller;
 import optional.test2.domain.service.MarketService;
 
 public class MarketController {
-    private MarketService service;
+    private final MarketService service;
 
     public MarketController(MarketService service) {
         this.service = service;
@@ -21,8 +21,8 @@ public class MarketController {
         service.processCheckout(userId);
     }
 
-    public void writeReview(int orderId, int rating, String content) {
-        service.saveReview(orderId, rating, content);
+    public void writeReview(int userId, int productId, int rating, String content) {
+        service.writeReview(userId, productId, rating, content);
     }
 
     public void viewReview(int orderId) {

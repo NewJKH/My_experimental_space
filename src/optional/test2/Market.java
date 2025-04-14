@@ -1,5 +1,8 @@
 package optional.test2;
 
+import optional.test2.api.controller.MarketController;
+import optional.test2.domain.service.MarketService;
+
 public class Market {
     /*
     주문 상황을 가정하고 제작
@@ -17,4 +20,9 @@ public class Market {
     1. 장바구니에 물건을 추가 했지만, 상품이 오래되어 상품이 삭제된 경우를 대비하여 Optional 을 사용할 것.
     2. 리뷰 또한 구매 후 리뷰를 안달수 있으므로 Optional을 사용할 수 있다.
      */
+    public void start(){
+        MarketController con = new MarketController(new MarketService());
+
+
+    }
 }
