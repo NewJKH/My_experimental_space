@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b693d6-5ddb-477b-a42f-eebabc21dfd7" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/optional/OptionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/domain/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/domain/animal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/domain/animal/Pig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/domain/monster/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/domain/monster/Zombie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/domain/player/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/domain/player/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
