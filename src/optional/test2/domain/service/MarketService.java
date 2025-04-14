@@ -117,29 +117,38 @@ public class MarketService {
         int orderId = orderSequence++;
         System.out.printf("주문 완료! 주문번호 #%d, 결제 금액 ₩%,d\n", orderId, total);
     }
-
-
+    /**
+     * @param userId < 작성자
+     * @param productId < 물건
+     * @param star < 별점
+     * @param content 내용
+     *
+     *                테스트용이라 상품당 1개의 리뷰만 달 수 있게 설정되었습니다.
+     *                즉 1개의 상품에는 1개의 리뷰만 가능 합니다
+     */
     public void writeReview(int userId, int productId, int star, String content) {
+
         if (!userStore.containsKey(userId)) {
             System.out.println("유저가 존재하지 않습니다.");
             return;
         }
-
-        if (!productStore.containsKey(productId)) {
-            System.out.println("상품이 존재하지 않습니다.");
-            return;
-        }
-
-        Review review = new Review(userId, productId, star, content, new Date());
-
+        Optional<Product> product = Optional.ofNullable(productStore.get(productId));
+        product.ifPresentOrElse(p -> {
+            Review review = new Review(userId, p.getId(), star, content, new Date());
+            p.setReview(review);
+        },()-> System.out.println("상품이 존재하지 않습니다."));
     }
 
-    // === 리뷰 조회 ===
-    public void printReview(int orderId) {
-        Optional<Review> reviewOpt = Optional.ofNullable(reviewStore.get(orderId));
-        if (reviewOpt.isPresent()) {
-            Review r = reviewOpt.get();
-            System.out.printf("⭐ %d점: %s\n", r.getRating(), r.getContent());
+    /**
+     * @param productId < 상품
+     */
+    public void printReview(int productId) {
+        Optional<Product> productOpt = Optional.ofNullable(productStore.get(productId));
+        if (productOpt.isPresent()) {
+            Optional<Review> r = productOpt.get().getReview();
+            r.ifPresent(review -> {
+                System.out.println(" 상품 : "+productId+" "+ review.getContent());
+            });
         } else {
             System.out.println("리뷰가 없습니다.");
         }
