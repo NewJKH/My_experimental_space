@@ -2,6 +2,8 @@ package optional.domain.animal;
 
 import optional.domain.common.Entity;
 
+import java.util.Optional;
+
 public class Pig implements Entity, Animal {
     private final String name;
     private final double hp;
@@ -33,5 +35,9 @@ public class Pig implements Entity, Animal {
     @Override
     public double getSpeed() {
         return speed;
+    }
+    @Override
+    public Optional<Entity> getEntity() {
+        return Optional.of(this);
     }
 }

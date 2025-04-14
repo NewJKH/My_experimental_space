@@ -4,181 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4b693d6-5ddb-477b-a42f-eebabc21dfd7" name="변경" comment="">
+    <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadasync/core/thread/Chef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadasync/core/thread/Chef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/OptionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/animal/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/animal/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/animal/Pig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/common/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/common/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Spider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/domain/monster/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/domain/monster/Zombie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="HTML File" />
-        <option value="Record" />
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2v53cjbPZYv5FI6TskFv42xVXhW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/sprtm/OneDrive/Desktop/sparta",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "애플리케이션.Main.executor": "Debug"
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
-    ]
+    "git-widget-placeholder": "master"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sprtm\OneDrive\Desktop\sparta\MyTestRoom\src\htmlcomplic" />
-      <recent name="C:\Users\sprtm\OneDrive\Desktop\sparta\MyTestRoom\src" />
-    </key>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+}]]></component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="e4b693d6-5ddb-477b-a42f-eebabc21dfd7" name="변경" comment="" />
-      <created>1743421190144</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1743421190144</updated>
-    </task>
-    <task id="LOCAL-00001" summary="generic test">
+    <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/NewJKH/My_experimental_space&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
-      <created>1743435374562</created>
+      <created>1744601419863</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1743435374562</updated>
+      <updated>1744601419863</updated>
     </task>
-    <task id="LOCAL-00002" summary="generic test">
-      <option name="closed" value="true" />
-      <created>1743436702807</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1743436702807</updated>
-    </task>
-    <task id="LOCAL-00003" summary="generic test">
-      <option name="closed" value="true" />
-      <created>1743484815105</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1743484815105</updated>
-    </task>
-    <task id="LOCAL-00004" summary="generic test">
-      <option name="closed" value="true" />
-      <created>1743526553081</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1743526553081</updated>
-    </task>
-    <task id="LOCAL-00005" summary="generic test">
-      <option name="closed" value="true" />
-      <created>1743578461277</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1743578461277</updated>
-    </task>
-    <task id="LOCAL-00006" summary="generic test">
-      <option name="closed" value="true" />
-      <created>1743905821271</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1743905821272</updated>
-    </task>
-    <task id="LOCAL-00007" summary="generic test">
-      <option name="closed" value="true" />
-      <created>1743906238356</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1743906238356</updated>
-    </task>
-    <task id="LOCAL-00008" summary="충돌">
-      <option name="closed" value="true" />
-      <created>1744095312642</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1744095312642</updated>
-    </task>
-    <task id="LOCAL-00009" summary="충돌">
-      <option name="closed" value="true" />
-      <created>1744097678819</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1744097678819</updated>
-    </task>
-    <task id="LOCAL-00010" summary="충돌">
-      <option name="closed" value="true" />
-      <created>1744163550140</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1744163550140</updated>
-    </task>
-    <task id="LOCAL-00011" summary="충돌">
-      <option name="closed" value="true" />
-      <created>1744172916305</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1744172916305</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="generic test" />
-    <MESSAGE value="충돌" />
-    <option name="LAST_COMMIT_MESSAGE" value="충돌" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/NewJKH/My_experimental_space&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/NewJKH/My_experimental_space&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/NewJKH/My_experimental_space&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
