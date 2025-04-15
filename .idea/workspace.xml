@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/anonymous/AnonyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/test1/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test1/OptionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/test2/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/Market.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/service/MarketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/service/MarketService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +32,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/NewJKH/My_experimental_space.git&quot;,
-    &quot;accountId&quot;: &quot;5a66da97-34c4-4605-8ba5-30966f416055&quot;
+    &quot;url&quot;: &quot;https://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@github.com/NewJKH/My_experimental_space.git&quot;,
+    &quot;accountId&quot;: &quot;4c5d042d-1ef6-4fdd-89ff-a1d38e231f16&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -61,7 +58,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
     &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
   }
@@ -107,6 +104,9 @@
       <option name="presentableId" value="Default" />
       <updated>1744609348003</updated>
       <workItem from="1744609863180" duration="5574000" />
+      <workItem from="1744624540942" duration="11000" />
+      <workItem from="1744627556500" duration="1864000" />
+      <workItem from="1744678837746" duration="403000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -156,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744618130138</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit merge">
+      <option name="closed" value="true" />
+      <created>1744621248381</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744621248381</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,5 +177,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit merge" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
