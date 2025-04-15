@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/optional/test3/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/test3/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/test3/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/optional/test3/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test3/Area.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +68,11 @@
     &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="optional.test3" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -107,7 +116,7 @@
       <workItem from="1744609863180" duration="5574000" />
       <workItem from="1744624540942" duration="11000" />
       <workItem from="1744627556500" duration="1864000" />
-      <workItem from="1744678837746" duration="11310000" />
+      <workItem from="1744678837746" duration="12683000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
