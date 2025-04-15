@@ -36,7 +36,7 @@ public class MarketService {
             return;
         }
 
-        Optional<Product> productOpt = Optional.ofNullable(productStore.get(productId));
+        Optional<Product> productOpt = Optional.ofNullable(productStore.get(productId)); //
         if (productOpt.isEmpty()) {
             System.out.println("상품이 존재하지 않습니다.");
             return;
