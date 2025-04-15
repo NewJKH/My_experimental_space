@@ -20,7 +20,9 @@ public class MarketController {
     public void checkout(int userId) {
         service.processCheckout(userId);
     }
-
+    public void findItem(int userId, int productId){
+        service.findItem(userId, productId);
+    }
     public void writeReview(int userId, int productId, int rating, String content) {
         service.writeReview(userId, productId, rating, content);
     }

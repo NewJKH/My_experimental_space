@@ -150,4 +150,19 @@ public class MarketService {
             System.out.println("리뷰가 없습니다.");
         }
     }
+
+    public void findItem(int userId,int productId) {
+        User user = userStore.get(userId);
+        if (user == null) {
+            System.out.println("사용자를 찾을 수 없습니다.");
+            return;
+        }
+
+        Optional<CartItem> cartItemOpt = user.getCart().findItem(productId);
+        if (cartItemOpt.isEmpty()) {
+            System.out.println("장바구니에 있던 상품이 발주가 중지되었습니다.");
+            return;
+        }
+
+    }
 }

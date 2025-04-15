@@ -20,6 +20,7 @@ public class Cart {
         }
         items.add(new CartItem(productId, quantity));
     }
+
     public Optional<CartItem> findItem(int productId) {
         return items.stream()
                 .filter(item -> item.getProductId() == productId)

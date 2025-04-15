@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/anonymous/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/anonymous/AnonyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/anonymous/AnonyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test2/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/Market.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test2/api/controller/MarketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/api/controller/MarketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/service/MarketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/service/MarketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/user/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/user/Cart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +110,7 @@
       <workItem from="1744609863180" duration="5574000" />
       <workItem from="1744624540942" duration="11000" />
       <workItem from="1744627556500" duration="1864000" />
-      <workItem from="1744678837746" duration="4927000" />
+      <workItem from="1744678837746" duration="9220000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -174,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744679253103</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit merge">
+      <option name="closed" value="true" />
+      <created>1744689847406</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744689847406</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
