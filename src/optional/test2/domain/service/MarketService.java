@@ -160,7 +160,7 @@ public class MarketService {
 
         Optional<CartItem> cartItemOpt = user.getCart().findItem(productId);
         if (cartItemOpt.isEmpty()) {
-            System.out.println("장바구니에 있던 상품이 발주가 중지되었습니다.");
+            System.out.println("찾으시는 상품은 장바구니에 없습니다.");
             return;
         }
 
