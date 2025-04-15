@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/test2/domain/service/MarketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test2/domain/service/MarketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optional/test3/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/test3/Area.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -107,7 +107,7 @@
       <workItem from="1744609863180" duration="5574000" />
       <workItem from="1744624540942" duration="11000" />
       <workItem from="1744627556500" duration="1864000" />
-      <workItem from="1744678837746" duration="11163000" />
+      <workItem from="1744678837746" duration="11310000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -189,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744698721053</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit merge">
+      <option name="closed" value="true" />
+      <created>1744701179693</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744701179693</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
