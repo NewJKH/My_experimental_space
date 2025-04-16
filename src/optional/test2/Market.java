@@ -1,7 +1,6 @@
 package optional.test2;
 
 import optional.test2.api.controller.MarketController;
-import optional.test2.domain.service.MarketService;
 
 public class Market {
     /*
@@ -21,8 +20,6 @@ public class Market {
     2. 리뷰 또한 구매 후 리뷰를 안달수 있으므로 Optional을 사용할 수 있다.
      */
     public void start(){
-        MarketController con = new MarketController(new MarketService());
-        con.findItem(100,1);
-
+        new MarketController().buyProduct(100,1,3);
     }
 }

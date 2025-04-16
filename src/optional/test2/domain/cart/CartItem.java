@@ -1,4 +1,4 @@
-package optional.test2.domain.user;
+package optional.test2.domain.cart;
 
 public class CartItem {
     private final int productId;

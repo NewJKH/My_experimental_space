@@ -4,22 +4,16 @@ import java.util.Date;
 
 public class Review {
     private final int userId;
-    private final int productId;
 
     private int star;
     private String content;
     private Date currentDate;
 
-    public Review(int userId, int id, int star, String content, Date currentDate) {
+    public Review(int userId, int star, String content, Date currentDate) {
         this.userId = userId;
-        this.productId = id;
         this.star = star;
         this.content = content;
         this.currentDate = currentDate;
-    }
-
-    public int getProductId() {
-        return productId;
     }
 
     public int getUserId() {
