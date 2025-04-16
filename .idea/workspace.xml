@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lambda/test1/Concatenator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/test2/MaxFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/LambdaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,6 +63,7 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.LambdaTest.executor": "Run",
     "애플리케이션.Main.executor": "Debug"
   }
 }]]></component>
@@ -114,6 +118,7 @@
       <workItem from="1744678837746" duration="26881000" />
       <workItem from="1744729264367" duration="1186000" />
       <workItem from="1744761971548" duration="3302000" />
+      <workItem from="1744771546624" duration="3988000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -227,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744764172246</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="addCalculator">
+      <option name="closed" value="true" />
+      <created>1744771650616</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1744771650616</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +250,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/NewJKH/My_experimental_space&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
     <MESSAGE value="Merge branch 'master' of https://github.com/NewJKH/My_experimental_space&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="commit merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit merge" />
+    <MESSAGE value="addCalculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="addCalculator" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
