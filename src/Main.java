@@ -9,5 +9,4 @@ public class Main {
         new Market().start();
 //        new Area().test();;
     }
-
 }
