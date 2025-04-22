@@ -1,7 +1,6 @@
 package abs.inter;
 
 public interface Playable {
-    void play();
+    void play(String track);
     void stop();
-    void nextTrack();
 }

@@ -1,8 +1,9 @@
 package abs.inter;
 
-public class Streaming extends BasePlayer implements Playable{
+public class Streaming extends BasePlayer implements Playable {
     @Override
-    public void play() {
+    public void play(String track) {
+        super.currentTrack = track;
         System.out.println(super.currentTrack + " 재생 시작");
     }
 
@@ -13,6 +14,6 @@ public class Streaming extends BasePlayer implements Playable{
 
     @Override
     public void nextTrack() {
-        System.out.println(" 다음 트랙 ! ");
+        System.out.println(" 다음 트랙~ ! ");
     }
 }

@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/abs/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abs/abs/AbsMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abs/abs/AbsStreaming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abs/inter/BasePlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abs/inter/Playable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abs/inter/Streaming.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abs/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abs/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abs/abs/AbsMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abs/abs/AbsMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abs/abs/AbsStreaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abs/abs/AbsStreaming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abs/inter/BasePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abs/inter/BasePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abs/inter/Playable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abs/inter/Playable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abs/inter/Streaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abs/inter/Streaming.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,7 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.AbstractTest.executor": "Run",
     "애플리케이션.LambdaTest.executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.SelectOrange.executor": "Run",
@@ -77,7 +78,20 @@
       <recent name="optional.test3" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.SelectOrange">
+  <component name="RunManager" selected="애플리케이션.AbstractTest">
+    <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abs.AbstractTest" />
+      <module name="MyTestRoom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pratice.Main" />
       <module name="MyTestRoom" />
@@ -119,6 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.AbstractTest" />
         <item itemvalue="애플리케이션.SelectOrange" />
         <item itemvalue="애플리케이션.stream.Main" />
         <item itemvalue="애플리케이션.Main" />
@@ -178,7 +193,7 @@
       <workItem from="1744936426207" duration="375000" />
       <workItem from="1744937406249" duration="8707000" />
       <workItem from="1744954707873" duration="737000" />
-      <workItem from="1745291592993" duration="2605000" />
+      <workItem from="1745291592993" duration="4586000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -348,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745293270314</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add pro lv2">
+      <option name="closed" value="true" />
+      <created>1745296111657</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1745296111657</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -2,7 +2,8 @@ package abs.inter;
 
 public class BasePlayer {
     protected String currentTrack;
-    void log(String msg) {
-        System.out.println(msg);
+
+    public void nextTrack() {
+        System.out.println(" 다음 트랙 ! 22 ");
     }
 }
