@@ -3,7 +3,6 @@ package progremmers.core;
 import progremmers.level2.RobotDanger;
 
 public class ProMachine {
-
     public void boot(){
         bootDanger();
     }
