@@ -8,10 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/abs/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abs/AbstractTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/abs/abs/AbsMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abs/abs/AbsMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abs/abs/AbsStreaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abs/abs/AbsStreaming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abs/inter/BasePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abs/inter/BasePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abs/inter/Playable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abs/inter/Playable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abs/inter/Streaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abs/inter/Streaming.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +189,7 @@
       <workItem from="1744936426207" duration="375000" />
       <workItem from="1744937406249" duration="8707000" />
       <workItem from="1744954707873" duration="737000" />
-      <workItem from="1745291592993" duration="4586000" />
+      <workItem from="1745291592993" duration="7213000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -371,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745296111657</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add pro lv2">
+      <option name="closed" value="true" />
+      <created>1745297887375</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1745297887375</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,12 +1,10 @@
 package abs;
 
-import abs.inter.Streaming;
+import abs.abs.AbsStreaming;
 
 public class AbstractTest {
     public static void main(String[] args) {
-        Streaming streaming = new Streaming();
-        streaming.play(" 스트링! ");
-        streaming.stop();
-        streaming.nextTrack();
+        AbsStreaming abs = new AbsStreaming();
+        abs.start(" 스트링 ! ");
     }
 }
