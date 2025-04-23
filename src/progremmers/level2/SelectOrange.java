@@ -17,8 +17,7 @@ public class SelectOrange {
             k 개를 구매하고 싶다면 v 에서 3개를 골라 판매
             여기서 종류 별로 고른게 최솟값
 
-            # Greedy 알고리즘 사용
-
+            # Greedy 알고리즘 선택
          */
         /*
         일단 Map 을 사용해서 크기별로 몇개가 있는지 나열
