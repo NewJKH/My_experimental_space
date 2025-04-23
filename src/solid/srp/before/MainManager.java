@@ -19,6 +19,7 @@ public class MainManager {
         System.out.println("입력받은 학생 로직 처리 중...");
         student.setName(student.getName().trim().toUpperCase());
         students.add(student);
+        saveToFile();
     }
 
     // 책임 2: 화면 출력
