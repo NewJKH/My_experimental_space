@@ -1,27 +1,26 @@
 package solid.srp;
 
 import domain.Student;
-import solid.srp.before.MainManager;
-
-import java.util.Optional;
+import solid.srp.after.StudentEmailSender;
+import solid.srp.after.StudentFileSaver;
+import solid.srp.after.StudentPrinter;
+import solid.srp.after.StudentService;
 
 public class SRP {
     public static void main(String[] args) {
-        MainManager manager = new MainManager();
+        StudentService service = new StudentService();
+        StudentPrinter printer = new StudentPrinter();
+        StudentFileSaver fileSaver = new StudentFileSaver();
+        StudentEmailSender emailSender = new StudentEmailSender();
 
-        Student s1 = new Student(1, "   Alice ",10,"M");
-        Student s2 = new Student(2, "Bob",15,"F");
+        Student s1 = new Student(1, "   Alice ",20,"M");
+        Student s2 = new Student(2, "Bob",25,"F");
 
-        manager.save(s1);
-        manager.save(s2);
+        service.save(s1);
+        service.save(s2);
 
-        manager.print();
-        manager.saveToFile();
-        manager.sendEmail(s1);
-
-        Optional<Student> found = manager.getStudentById(2);
-        found.ifPresent(
-                student -> System.out.println("찾은 학생: " + student.getName())
-        );
+        printer.print(service.getAllStudents());
+        fileSaver.save(service.getAllStudents());
+        emailSender.sendEmail(s1);
     }
 }
