@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/solid/srp/after/StudentEmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/srp/after/StudentFileSaver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/srp/after/StudentPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/srp/after/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/progremmers/level0/Safezone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/progremmers/level2/Miro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/progremmers/level2/image/miro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/ocp/OCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/ocp/after/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/ocp/after/Notifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/ocp/after/OCPNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/ocp/after/PushNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/ocp/after/SmsNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/ocp/before/Notification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/srp/SRP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/srp/SRP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,32 +57,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.AbstractTest.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.LambdaTest.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.SelectOrange.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.stream.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.AbstractTest.executor": "Run",
+    "애플리케이션.LambdaTest.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Miro.executor": "Run",
+    "애플리케이션.SelectOrange.executor": "Run",
+    "애플리케이션.stream.Main.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="optional.test3" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.AbstractTest">
+  <component name="RunManager" selected="애플리케이션.Miro">
     <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abs.AbstractTest" />
       <module name="MyTestRoom" />
@@ -97,6 +103,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pratice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Miro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progremmers.level2.Miro" />
+      <module name="MyTestRoom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="progremmers.level2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,6 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Miro" />
         <item itemvalue="애플리케이션.AbstractTest" />
         <item itemvalue="애플리케이션.SelectOrange" />
         <item itemvalue="애플리케이션.stream.Main" />
@@ -194,7 +214,7 @@
       <workItem from="1744954707873" duration="737000" />
       <workItem from="1745291592993" duration="7253000" />
       <workItem from="1745308055575" duration="2934000" />
-      <workItem from="1745365996539" duration="3959000" />
+      <workItem from="1745365996539" duration="13292000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -412,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745374813816</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add srp update after">
+      <option name="closed" value="true" />
+      <created>1745375528300</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1745375528300</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +456,8 @@
     <MESSAGE value="추상화 클래스 배우기" />
     <MESSAGE value="add srp" />
     <MESSAGE value="add srp update before" />
-    <option name="LAST_COMMIT_MESSAGE" value="add srp update before" />
+    <MESSAGE value="add srp update after" />
+    <option name="LAST_COMMIT_MESSAGE" value="add srp update after" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
