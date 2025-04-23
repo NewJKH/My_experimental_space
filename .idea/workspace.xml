@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/SingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/srp/SRP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/srp/before/MainManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/progremmers/level2/SelectOrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progremmers/level2/SelectOrange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solid/srp/before/MainManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/srp/before/MainManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +190,7 @@
       <workItem from="1744954707873" duration="737000" />
       <workItem from="1745291592993" duration="7253000" />
       <workItem from="1745308055575" duration="2934000" />
-      <workItem from="1745365996539" duration="2038000" />
+      <workItem from="1745365996539" duration="2547000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -388,7 +384,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745304380162</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add srp">
+      <option name="closed" value="true" />
+      <created>1745373609099</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1745373609099</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +406,8 @@
     <MESSAGE value="add stream" />
     <MESSAGE value="add pro lv2" />
     <MESSAGE value="추상화 클래스 배우기" />
-    <option name="LAST_COMMIT_MESSAGE" value="추상화 클래스 배우기" />
+    <MESSAGE value="add srp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add srp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
