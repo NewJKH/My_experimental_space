@@ -16,9 +16,15 @@ public class 약수 {
         System.out.println("절반 처리 시간: " + (end - start) / 1_000_000.0 + " ms\n");
 
         start = System.nanoTime();
+        라이브러리(n);
+        end = System.nanoTime();
+        System.out.println("라이브러리 처리 시간: " + (end - start) / 1_000_000.0 + " ms\n");
+
+        start = System.nanoTime();
         제곱근(n);
         end = System.nanoTime();
         System.out.println("제곱 처리 시간: " + (end - start) / 1_000_000.0 + " ms\n");
+
     }
     private static void 일반(int n){
         int sum = 0;
@@ -44,5 +50,15 @@ public class 약수 {
             }
         }
         System.out.println("제곱근: "+sum);
+    }
+    private static void 라이브러리(int n){
+        int sum = 0;
+        for (int i = 1; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                sum += i;
+                if (i != n / i) sum += n / i;
+            }
+        }
+        System.out.println("라이브: "+sum);
     }
 }
