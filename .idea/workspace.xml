@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/progremmers/level0/Safezone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/progremmers/level2/Miro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/progremmers/level2/image/miro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/ocp/OCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/ocp/after/EmailNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/ocp/after/Notifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/ocp/after/OCPNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/ocp/after/PushNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/ocp/after/SmsNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/ocp/before/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/progremmers/level1/약수/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/progremmers/level1/약수/약수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/lsp/LSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/lsp/before/BeforeRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/lsp/before/BeforeSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +70,8 @@
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.Miro.executor": "Run",
     "애플리케이션.SelectOrange.executor": "Run",
-    "애플리케이션.stream.Main.executor": "Run"
+    "애플리케이션.stream.Main.executor": "Run",
+    "애플리케이션.약수.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -83,13 +79,13 @@
       <recent name="optional.test3" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Miro">
-    <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abs.AbstractTest" />
+  <component name="RunManager" selected="애플리케이션.약수">
+    <configuration name="약수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수" />
       <module name="MyTestRoom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abs.*" />
+          <option name="PATTERN" value="progremmers.level1.약수.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.Main" />
+    <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abs.AbstractTest" />
       <module name="MyTestRoom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.*" />
+          <option name="PATTERN" value="abs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.약수" />
         <item itemvalue="애플리케이션.Miro" />
         <item itemvalue="애플리케이션.AbstractTest" />
         <item itemvalue="애플리케이션.SelectOrange" />
         <item itemvalue="애플리케이션.stream.Main" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +210,8 @@
       <workItem from="1744954707873" duration="737000" />
       <workItem from="1745291592993" duration="7253000" />
       <workItem from="1745308055575" duration="2934000" />
-      <workItem from="1745365996539" duration="13292000" />
+      <workItem from="1745365996539" duration="15536000" />
+      <workItem from="1745451840336" duration="4627000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -440,7 +437,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745375528300</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add ocp">
+      <option name="closed" value="true" />
+      <created>1745401134066</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1745401134066</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +462,8 @@
     <MESSAGE value="add srp" />
     <MESSAGE value="add srp update before" />
     <MESSAGE value="add srp update after" />
-    <option name="LAST_COMMIT_MESSAGE" value="add srp update after" />
+    <MESSAGE value="add ocp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ocp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
