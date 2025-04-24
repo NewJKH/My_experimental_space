@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/solid/isp/ISP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/isp/after/Faxable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/isp/after/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/isp/after/Scannable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/isp/before/MultiPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/isp/before/OldPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/isp/before/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/dip/DIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/dip/before/BeforeFileStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/dip/before/BeforeUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -213,7 +209,7 @@
       <workItem from="1745291592993" duration="7253000" />
       <workItem from="1745308055575" duration="2934000" />
       <workItem from="1745365996539" duration="15536000" />
-      <workItem from="1745451840336" duration="8637000" />
+      <workItem from="1745451840336" duration="10438000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -471,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745461791066</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add isp after">
+      <option name="closed" value="true" />
+      <created>1745463487868</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1745463487868</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +496,8 @@
     <MESSAGE value="add 약수의 합 시간복잡도" />
     <MESSAGE value="add lsp before" />
     <MESSAGE value="add lsp after" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lsp after" />
+    <MESSAGE value="add isp after" />
+    <option name="LAST_COMMIT_MESSAGE" value="add isp after" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
