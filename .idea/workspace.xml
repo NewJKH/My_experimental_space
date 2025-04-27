@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/progremmers/level1/뒤집어/뒤집어.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/progremmers/level1/자릿수/자릿수.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/progremmers/level1/약수/약수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progremmers/level1/약수/약수.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,8 @@
     &quot;애플리케이션.Miro.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.SelectOrange.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.stream.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.약수.executor&quot;: &quot;Run&quot;
+    &quot;애플리케이션.약수.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.자릿수.executor&quot;: &quot;Run&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -75,7 +77,7 @@
       <recent name="optional.test3" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.약수">
+  <component name="RunManager" selected="애플리케이션.AbstractTest">
     <configuration name="약수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수" />
       <module name="MyTestRoom" />
@@ -128,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stream.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.Main" />
+    <configuration name="자릿수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progremmers.level1.자릿수.자릿수" />
       <module name="MyTestRoom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="progremmers.level1.자릿수.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,7 +149,6 @@
         <item itemvalue="애플리케이션.Miro" />
         <item itemvalue="애플리케이션.AbstractTest" />
         <item itemvalue="애플리케이션.SelectOrange" />
-        <item itemvalue="애플리케이션.stream.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +212,11 @@
       <workItem from="1745490779981" duration="214000" />
       <workItem from="1745493930015" duration="19000" />
       <workItem from="1745504169229" duration="226000" />
+      <workItem from="1745537112214" duration="1551000" />
+      <workItem from="1745540015266" duration="4000" />
+      <workItem from="1745575641914" duration="1702000" />
+      <workItem from="1745577694252" duration="11000" />
+      <workItem from="1745796151508" duration="812000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -492,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745466509063</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="약수의 합">
+      <option name="closed" value="true" />
+      <created>1745537157099</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1745537157099</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +530,8 @@
     <MESSAGE value="add isp after" />
     <MESSAGE value="add dip before" />
     <MESSAGE value="add dip after" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dip after" />
+    <MESSAGE value="약수의 합" />
+    <option name="LAST_COMMIT_MESSAGE" value="약수의 합" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
