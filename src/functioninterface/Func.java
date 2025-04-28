@@ -1,5 +1,9 @@
 package functioninterface;
 
+import domain.Student;
+
+import java.util.Comparator;
+import java.util.concurrent.Callable;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
@@ -9,7 +13,45 @@ public class Func {
         predicate();
         supplier();
        functionTR();
+       comparator();
+       runnable();
+       callback();
     }
+
+    private static void callback() {
+        Callable<Student> callable = new Callable<>() {
+            @Override
+            public Student call() throws Exception {
+                return new Student(1, "테스트", 10, "F");
+            }
+        };
+        try {
+            Student student = callable.call();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    private static void runnable() {
+        Runnable runnable = Func::comparator;
+        runnable.run();
+    }
+
+    private static void comparator() {
+        Comparator<Integer> compare = new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o1-o2;
+            }
+        };
+        Comparator<String> comparator = new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return Integer.parseInt(o1)+Integer.parseInt(o2);
+            }
+        };
+    }
+
     private static void predicate(){
         Predicate<Integer> isPos1 = new Predicate<Integer>() {
             @Override
