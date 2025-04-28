@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/progremmers/level2/파보나치/DP/Fabo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/progremmers/level2/파보나치/반복/Fabo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/progremmers/level2/파보나치/재귀/Fabo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functioninterface/Func.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/progremmers/level1/뒤집어/뒤집어.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progremmers/level1/뒤집어/뒤집어.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +217,7 @@
       <workItem from="1745577694252" duration="11000" />
       <workItem from="1745796151508" duration="1625000" />
       <workItem from="1745802154841" duration="1772000" />
+      <workItem from="1745806026012" duration="860000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -517,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745797167988</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="프로그래머스: 테스트">
+      <option name="closed" value="true" />
+      <created>1745806039081</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1745806039081</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +549,8 @@
     <MESSAGE value="add dip after" />
     <MESSAGE value="약수의 합" />
     <MESSAGE value="프로그래머스: 뒤집어 배열" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스: 뒤집어 배열" />
+    <MESSAGE value="프로그래머스: 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스: 테스트" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
