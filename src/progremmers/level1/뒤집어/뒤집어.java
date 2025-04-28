@@ -9,7 +9,6 @@ public class 뒤집어 {
         long n = 12345;
 
         int[] result = cutting(n);
-
     }
 
     private static int[] cutting(long l) {
