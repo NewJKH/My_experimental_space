@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/progremmers/level1/평균/배열평균.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/functioninterface/Func.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functioninterface/Func.java" afterDir="false" />
     </list>
@@ -217,7 +218,9 @@
       <workItem from="1745577694252" duration="11000" />
       <workItem from="1745796151508" duration="1625000" />
       <workItem from="1745802154841" duration="1772000" />
-      <workItem from="1745806026012" duration="3143000" />
+      <workItem from="1745806026012" duration="6204000" />
+      <workItem from="1745839761713" duration="267000" />
+      <workItem from="1745882895156" duration="747000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -531,7 +534,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745806905269</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1745814441659</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1745814441659</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1745819629816</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1745819629816</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
