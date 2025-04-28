@@ -2,10 +2,12 @@ package functioninterface;
 
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class Func {
     public static void main(String[] args) {
         predicate();
+        supplier();
        functionTR();
     }
     private static void predicate(){
@@ -16,7 +18,16 @@ public class Func {
             }
         };
         Predicate<Integer> isPos2 = integer -> integer>100;
-
+    }
+    private static void supplier(){
+        Supplier<String> supplier = new Supplier<String>() {
+            @Override
+            public String get() {
+                return "TEST";
+            }
+        };
+        Supplier<String> supplier1 = () -> "TEST";
+        supplier.get();
     }
     private static void functionTR(){
         Function<String,?> strFunction = new Function<String, Object>() {
