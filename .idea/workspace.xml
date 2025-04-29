@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/progremmers/level1/평균/배열평균.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/progremmers/level2/짝지어/짝지어제거.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functioninterface/Func.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functioninterface/Func.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,41 +48,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.AbstractTest.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.LambdaTest.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Miro.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.SelectOrange.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.stream.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.약수.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.자릿수.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.AbstractTest.executor": "Run",
+    "애플리케이션.LambdaTest.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Miro.executor": "Run",
+    "애플리케이션.SelectOrange.executor": "Run",
+    "애플리케이션.stream.Main.executor": "Run",
+    "애플리케이션.약수.executor": "Run",
+    "애플리케이션.자릿수.executor": "Run",
+    "애플리케이션.짝지어제거.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="optional.test3" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.AbstractTest">
+  <component name="RunManager" selected="애플리케이션.짝지어제거">
     <configuration name="약수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수" />
       <module name="MyTestRoom" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="progremmers.level1.약수.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="짝지어제거" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progremmers.level2.짝지어.짝지어제거" />
+      <module name="MyTestRoom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="progremmers.level2.짝지어.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,6 +158,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.짝지어제거" />
         <item itemvalue="애플리케이션.약수" />
         <item itemvalue="애플리케이션.Miro" />
         <item itemvalue="애플리케이션.AbstractTest" />
@@ -220,7 +234,7 @@
       <workItem from="1745802154841" duration="1772000" />
       <workItem from="1745806026012" duration="6204000" />
       <workItem from="1745839761713" duration="267000" />
-      <workItem from="1745882895156" duration="747000" />
+      <workItem from="1745882895156" duration="5612000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -550,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745819629816</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1745883762471</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1745883762471</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
