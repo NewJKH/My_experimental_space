@@ -5,6 +5,7 @@ public class 약수 {
         int n = 1000000;
         long start;
         long end;
+
         start = System.nanoTime();
         일반(n);
         end = System.nanoTime();
