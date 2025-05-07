@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/progremmers/level1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/progremmers/level1/약수/약수갯수.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/progremmers/level1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progremmers/level1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/progremmers/level1/약수/약수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progremmers/level1/약수/약수.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,36 +50,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.AbstractTest.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.LambdaTest.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Miro.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.SelectOrange.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.stream.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.약수.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.자릿수.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.짝지어제거.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/sprtm/OneDrive/Desktop/sparta/workspace/sparta-java-coupling/sparta-java-coupling",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.AbstractTest.executor": "Run",
+    "애플리케이션.LambdaTest.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Miro.executor": "Run",
+    "애플리케이션.SelectOrange.executor": "Run",
+    "애플리케이션.Test.executor": "Run",
+    "애플리케이션.stream.Main.executor": "Run",
+    "애플리케이션.약수.executor": "Run",
+    "애플리케이션.약수갯수.executor": "Run",
+    "애플리케이션.자릿수.executor": "Run",
+    "애플리케이션.짝지어제거.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="optional.test3" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
+  <component name="RunManager" selected="애플리케이션.약수갯수">
     <configuration name="약수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수" />
       <module name="MyTestRoom" />
@@ -91,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abs.AbstractTest" />
+    <configuration name="약수갯수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수갯수" />
       <module name="MyTestRoom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abs.*" />
+          <option name="PATTERN" value="progremmers.level1.약수.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectOrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progremmers.level2.SelectOrange" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progremmers.level1.Test" />
       <module name="MyTestRoom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="progremmers.level2.*" />
+          <option name="PATTERN" value="progremmers.level1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.약수갯수" />
+        <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.약수" />
         <item itemvalue="애플리케이션.Miro" />
-        <item itemvalue="애플리케이션.AbstractTest" />
-        <item itemvalue="애플리케이션.SelectOrange" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +256,14 @@
       <workItem from="1745971596074" duration="1751000" />
       <workItem from="1745974594305" duration="1001000" />
       <workItem from="1745986392912" duration="10000" />
-      <workItem from="1745991277607" duration="1691000" />
+      <workItem from="1745991277607" duration="1804000" />
+      <workItem from="1746054635007" duration="4728000" />
+      <workItem from="1746064760900" duration="3456000" />
+      <workItem from="1746098382402" duration="1052000" />
+      <workItem from="1746141146376" duration="3412000" />
+      <workItem from="1746573713008" duration="3226000" />
+      <workItem from="1746584932189" duration="4000" />
+      <workItem from="1746660957808" duration="653000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -605,7 +617,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745973338380</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1745992979206</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1745992979206</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

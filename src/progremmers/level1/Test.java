@@ -1,15 +1,16 @@
 package progremmers.level1;
 
-import java.util.Arrays;
-import java.util.concurrent.atomic.AtomicInteger;
-
 public class Test {
-    public double solution(int[] arr) {
-        AtomicInteger sum = new AtomicInteger();
+    public static void main(String[] args) {
+        System.out.println(" 값1 : "+ solution("abcde"));
+        System.out.println(" 값2 : "+ solution("qwer"));
+    }
 
-        Arrays.stream(arr)
-                .forEach(sum::addAndGet);
+    public static String solution(String s) {
+        int size = s.length();
+        int a = size/2;
+        boolean stat = size % 2 == 0;
 
-        return (double) sum.get() / arr.length;
+        return stat ? s.substring(a-1,a+1) : s.substring(a,a+1);
     }
 }

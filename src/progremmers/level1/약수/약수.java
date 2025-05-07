@@ -44,10 +44,12 @@ public class 약수 {
     }
     private static void 제곱근(int n){
         int sum = 0;
+        boolean stat = false;
         for (int i = 1; i * i <= n; i++) {
             if (n % i == 0) {
                 sum += i;
                 if (i != n / i) sum += n / i;
+                stat = !stat;
             }
         }
         System.out.println("제곱근: "+sum);
