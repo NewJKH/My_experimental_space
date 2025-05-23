@@ -11,11 +11,3 @@
 ```
 
 남들이 보기엔 하찮은 놀이일지라도 나에게는 최고의 연구 장소 입니다.
-
-| 기능 | 설명 | Method | URL | 필드 | 예시 요청 | 예시 응답 | 상태코드 | 로그인 필요 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 회원가입 (회원 생성) | 새로운 회원을 등록합니다. | POST | /member/register | member_name (String, 필수), email (String, 필수), password (String, 필수) | {'member_name': '홍길동', 'email': 'hong@example.com', 'password': '1234'} | {'id': 1, 'member_name': '홍길동', 'email': 'hong@example.com', 'create_at': '2025-05-23T13:30:00.000+09:00', 'modified_at': '2025-05-23T13:30:00.000+09:00'} | 201: 회원 생성 성공, 400: 유효성 실패, 500: 서버 내부 오류 | X |
-| 회원조회 (회원 번호) | 회원 ID로 단일 회원 정보를 조회합니다. | GET | /member?id={id} | id (Long, 필수) | - | {'id': 1, 'member_name': '홍길동', 'email': 'hong@example.com', 'create_at': '2025-05-23T13:30:00.000+09:00', 'modified_at': '2025-05-23T13:30:00.000+09:00'} | 200: 회원 조회 성공, 404: 회원 없음, 500: 서버 오류 | O |
-| 회원조회 (전체 조회) | 모든 회원 목록을 조회합니다. | GET | /member/all | - | - | [{'id': 1, 'member_name': '홍길동', 'email': 'hong@example.com'}] | 200: 회원 목록 조회 성공, 500: 서버 오류 | O |
-| 회원수정 (이름 수정) | 회원의 이름을 수정합니다. | PUT | /member/update | member_name (String, 필수) | {'member_name': '임꺽정'} | {'id': 1, 'member_name': '임꺽정', 'email': 'hong@example.com'} | 200: 수정 성공, 401: 인증 실패, 500: 서버 오류 | O |
-| 회원삭제 (회원 번호) | 회원 탈퇴를 처리합니다. | DELETE | /member/delete/{id} | password (String, 필수) | {'password': '1234'} | - | 200: 삭제 성공, 401: 비밀번호 불일치, 404: 회원 없음 | O |
