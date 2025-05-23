@@ -18,7 +18,7 @@
 | **Method** | `POST`                                                                                                                                                                 |
 | **URL**    | `/member/register`                                                                                                                                                     |
 | **필드**     | `member_name` (String, 필수) <br> `email` (String, 필수) <br> `password` (String, 필수)                                                                                      |
-| **예시 요청**  | `json\n{ "member_name": "홍길동", "email": "hong@example.com", "password": "1234" }\n`                                                                                    |
-| **예시 응답**  | `json\n{ "id": 1, "member_name": "홍길동", "email": "hong@example.com", "create_at": "2025-05-23T13:30:00.000+09:00", "modified_at": "2025-05-23T13:30:00.000+09:00" }\n` |
+| **예시 요청**  | ```json\n{ "member_name": "홍길동", "email": "hong@example.com", "password": "1234" }\n```                                                                                    |
+| **예시 응답**  | ```json\n{ "id": 1, "member_name": "홍길동", "email": "hong@example.com", "create_at": "2025-05-23T13:30:00.000+09:00", "modified_at": "2025-05-23T13:30:00.000+09:00" }\n``` |
 | **상태코드**   | 201: 회원 생성 성공 <br> 400: 유효성 실패 <br> 500: 서버 내부 오류                                                                                                                      |
 | **로그인 필요** | ❌ (로그인 없이 접근 가능)                                                                                                                                                       |
