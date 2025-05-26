@@ -1,24 +1,28 @@
 package progremmers.level1;
 
 
+import java.util.Arrays;
+import java.util.Stack;
+
 public class Test {
     public static void main(String[] args) {
-        System.out.println("args = " + solution(new int[]{1,3,4,6}));
+        System.out.println("args = " + Arrays.toString(solution(new int[]{1,1,3,3,0,1,1})));
 
     }
 
-    public static String solution(int[] food) {
-        StringBuilder stringBuilder = new StringBuilder();
-
-        for ( int i = 1; i < food.length; i++){
-            int f = food[i];
-            for ( int j = f-2; j >= 0; j-=2){
-                stringBuilder.append(i);
+    public static int[] solution(int[] arr) {
+        Stack<Integer> stack = new Stack<>();
+        for (int i : arr) {
+            if (stack.isEmpty() || stack.peek() != i) {
+                stack.push(i);
             }
         }
-        String sort = new StringBuilder(stringBuilder).reverse().toString();
-        stringBuilder.append(0);
-        stringBuilder.append(sort);
-        return stringBuilder.toString();
+
+        int[] answer = new int[stack.size()];
+        for (int i = 0; i < stack.size(); i++) {
+            answer[i] = stack.get(i);
+        }
+
+        return answer;
     }
 }
