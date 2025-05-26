@@ -1,16 +1,24 @@
 package progremmers.level1;
 
+
 public class Test {
     public static void main(String[] args) {
-        System.out.println(" 값1 : "+ solution("abcde"));
-        System.out.println(" 값2 : "+ solution("qwer"));
+        System.out.println("args = " + solution(new int[]{1,3,4,6}));
+
     }
 
-    public static String solution(String s) {
-        int size = s.length();
-        int a = size/2;
-        boolean stat = size % 2 == 0;
+    public static String solution(int[] food) {
+        StringBuilder stringBuilder = new StringBuilder();
 
-        return stat ? s.substring(a-1,a+1) : s.substring(a,a+1);
+        for ( int i = 1; i < food.length; i++){
+            int f = food[i];
+            for ( int j = f-2; j >= 0; j-=2){
+                stringBuilder.append(i);
+            }
+        }
+        String sort = new StringBuilder(stringBuilder).reverse().toString();
+        stringBuilder.append(0);
+        stringBuilder.append(sort);
+        return stringBuilder.toString();
     }
 }

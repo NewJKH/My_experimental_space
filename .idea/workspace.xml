@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/progremmers/level1/약수/약수갯수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/Per.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/TEST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/progremmers/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/유저.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/progremmers/level1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progremmers/level1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/progremmers/level1/약수/약수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progremmers/level1/약수/약수.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -50,54 +55,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/sprtm/OneDrive/Desktop/sparta/workspace/sparta-java-coupling/sparta-java-coupling",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.AbstractTest.executor": "Run",
-    "애플리케이션.LambdaTest.executor": "Run",
-    "애플리케이션.Main.executor": "Run",
-    "애플리케이션.Miro.executor": "Run",
-    "애플리케이션.SelectOrange.executor": "Run",
-    "애플리케이션.Test.executor": "Run",
-    "애플리케이션.stream.Main.executor": "Run",
-    "애플리케이션.약수.executor": "Run",
-    "애플리케이션.약수갯수.executor": "Run",
-    "애플리케이션.자릿수.executor": "Run",
-    "애플리케이션.짝지어제거.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sprtm/OneDrive/Desktop/sparta/workspace/sparta-java-coupling/sparta-java-coupling&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.AbstractTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.LambdaTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Miro.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.SelectOrange.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Test.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Test2.executor&quot;: &quot;Debug&quot;,
+    &quot;애플리케이션.stream.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.test.Test.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.약수.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.약수갯수.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.자릿수.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.짝지어제거.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="optional.test3" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.약수갯수">
+  <component name="RunManager" selected="애플리케이션.Test">
     <configuration name="약수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수" />
-      <module name="MyTestRoom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="progremmers.level1.약수.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="약수갯수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수갯수" />
       <module name="MyTestRoom" />
       <extension name="coverage">
         <pattern>
@@ -122,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Miro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progremmers.level2.Miro" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progremmers.level1.Test" />
       <module name="MyTestRoom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="progremmers.level2.*" />
+          <option name="PATTERN" value="progremmers.level1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +129,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progremmers.level1.Test" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progremmers.Test2" />
       <module name="MyTestRoom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="progremmers.level1.*" />
+          <option name="PATTERN" value="progremmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="약수갯수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수갯수" />
+      <module name="MyTestRoom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="progremmers.level1.약수.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,13 +181,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="MyTestRoom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.약수갯수" />
         <item itemvalue="애플리케이션.Test" />
+        <item itemvalue="애플리케이션.Test2" />
+        <item itemvalue="애플리케이션.test.Test" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.약수" />
-        <item itemvalue="애플리케이션.Miro" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +283,29 @@
       <workItem from="1746141146376" duration="3412000" />
       <workItem from="1746573713008" duration="3226000" />
       <workItem from="1746584932189" duration="4000" />
-      <workItem from="1746660957808" duration="653000" />
+      <workItem from="1746660957808" duration="1374000" />
+      <workItem from="1746703611553" duration="1327000" />
+      <workItem from="1746745392653" duration="3233000" />
+      <workItem from="1746749367396" duration="3000" />
+      <workItem from="1746762709387" duration="63000" />
+      <workItem from="1746763207000" duration="21000" />
+      <workItem from="1746892405764" duration="938000" />
+      <workItem from="1747004941658" duration="2544000" />
+      <workItem from="1747009555798" duration="8000" />
+      <workItem from="1747094594652" duration="2047000" />
+      <workItem from="1747178825722" duration="2215000" />
+      <workItem from="1747188741139" duration="142000" />
+      <workItem from="1747351704475" duration="486000" />
+      <workItem from="1747362027736" duration="34000" />
+      <workItem from="1747610467061" duration="1296000" />
+      <workItem from="1747735576884" duration="2222000" />
+      <workItem from="1747783220265" duration="2722000" />
+      <workItem from="1747826921720" duration="803000" />
+      <workItem from="1747870367179" duration="1820000" />
+      <workItem from="1747955518805" duration="277000" />
+      <workItem from="1747956062017" duration="13000" />
+      <workItem from="1748179904464" duration="947000" />
+      <workItem from="1748217372625" duration="8000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -625,7 +667,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745992979206</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1746661732176</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1746661732176</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,6 +706,66 @@
     <option name="LAST_COMMIT_MESSAGE" value="update: function Interface" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/Test.java</url>
+          <line>3</line>
+          <properties class="test.Test" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/progremmers/Test2.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/progremmers/Test2.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/progremmers/Test2.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/progremmers/Test2.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/progremmers/Test2.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/progremmers/level1/Test.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/progremmers/level1/Test.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/progremmers/level1/Test.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/progremmers/level1/Test.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
