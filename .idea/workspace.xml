@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/progremmers/level1/약수/약수카운트.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/progremmers/level1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progremmers/level1/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +56,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sprtm/OneDrive/Desktop/sparta/workspace/sparta-java-coupling/sparta-java-coupling&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sprtm/OneDrive/Desktop/Plugin dev/1.20.1/BattleMod/BattleMod&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -67,12 +69,13 @@
     &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.Miro.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.SelectOrange.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Test.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Test.executor&quot;: &quot;Debug&quot;,
     &quot;애플리케이션.Test2.executor&quot;: &quot;Debug&quot;,
     &quot;애플리케이션.stream.Main.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.test.Test.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.약수.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.약수갯수.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.약수카운트.executor&quot;: &quot;Debug&quot;,
     &quot;애플리케이션.자릿수.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.짝지어제거.executor&quot;: &quot;Run&quot;
   }
@@ -83,8 +86,8 @@
     </key>
   </component>
   <component name="RunManager" selected="애플리케이션.Test">
-    <configuration name="약수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수" />
+    <configuration name="약수카운트" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수카운트" />
       <module name="MyTestRoom" />
       <extension name="coverage">
         <pattern>
@@ -190,10 +193,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.Test" />
+        <item itemvalue="애플리케이션.약수카운트" />
         <item itemvalue="애플리케이션.Test2" />
         <item itemvalue="애플리케이션.test.Test" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.약수" />
       </list>
     </recent_temporary>
   </component>
@@ -207,22 +210,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00002" summary="commit merge">
-      <option name="closed" value="true" />
-      <created>1744601710080</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1744601710080</updated>
-    </task>
-    <task id="LOCAL-00003" summary="commit merge">
-      <option name="closed" value="true" />
-      <created>1744603995099</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1744603995099</updated>
-    </task>
     <task active="true" id="Default" summary="디폴트 작업">
       <changelist id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="" />
       <created>1744609348003</created>
@@ -291,7 +278,28 @@
       <workItem from="1747956062017" duration="13000" />
       <workItem from="1748179904464" duration="947000" />
       <workItem from="1748217372625" duration="8000" />
-      <workItem from="1748243807590" duration="306000" />
+      <workItem from="1748243807590" duration="1076000" />
+      <workItem from="1748306835359" duration="70000" />
+      <workItem from="1748388027179" duration="1868000" />
+      <workItem from="1748400509684" duration="9000" />
+      <workItem from="1748474845437" duration="896000" />
+      <workItem from="1748561580780" duration="1610000" />
+      <workItem from="1748685273430" duration="43000" />
+      <workItem from="1748694811693" duration="5000" />
+      <workItem from="1748821041570" duration="1122000" />
+      <workItem from="1749428649977" duration="1535000" />
+      <workItem from="1749510885963" duration="1812000" />
+      <workItem from="1749595852298" duration="397000" />
+      <workItem from="1749596335803" duration="110000" />
+      <workItem from="1749687508409" duration="3225000" />
+      <workItem from="1749690985037" duration="6000" />
+      <workItem from="1750033240926" duration="1707000" />
+      <workItem from="1750051490706" duration="3620000" />
+      <workItem from="1750061607828" duration="992000" />
+      <workItem from="1750238926855" duration="6480000" />
+      <workItem from="1750319321711" duration="2311000" />
+      <workItem from="1750328802880" duration="2265000" />
+      <workItem from="1750334102660" duration="9000" />
     </task>
     <task id="LOCAL-00004" summary="commit merge">
       <option name="closed" value="true" />
@@ -669,7 +677,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748243823475</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1748244233926</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1748244233926</updated>
+    </task>
+    <task id="LOCAL-00052" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1748685309171</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1748685309172</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

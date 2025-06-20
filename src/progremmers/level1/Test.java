@@ -1,34 +1,27 @@
 package progremmers.level1;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-
-
 public class Test {
     public static void main(String[] args) {
-        System.out.println("args = " + solution(
-                new String[]{"i", "drink", "water"}
-                ,new String[]{"want", "to"}
-                ,new String[]{"i", "want", "to", "drink", "water"}
-        ));
-
+//        System.out.println("args = " +solution(new String[]{"ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"}));
+        System.out.println("args = " + solution(new int[]{2, 1, 1, 2, 3, 1, 2, 3, 1}));
+        System.out.println("args = " + solution(new int[]{1, 3, 2, 1, 2, 1, 3, 1, 2}));
     }
 
-    public static String solution(String[] cards1, String[] cards2, String[] goal) {
-        Queue<String> fc = new LinkedList<>(List.of(cards1));
-        Queue<String> sc = new LinkedList<>(List.of(cards2));
+    public static int solution(int[] ingredient) {
+        // 빵 - 야채 - 고기 - 빵  | 1 2개 , 2 1개 , 3 1개
+        StringBuilder stack = new StringBuilder();
+        int count = 0;
 
-        for (String word : goal) {
-            if (!fc.isEmpty() && word.equals(fc.peek())) {
-                fc.remove();
-            } else if (!sc.isEmpty() && word.equals(sc.peek())) {
-                sc.remove();
-            } else {
-                return "No";
+        for (int i : ingredient) {
+            stack.append(i);
+
+            if (stack.length() >= 4 &&
+                    stack.substring(stack.length() - 4).equals("1231")) {
+                stack.setLength(stack.length() - 4);
+                count++;
             }
         }
 
-        return "Yes";
+        return count;
     }
 }
