@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/progremmers/level1/약수/약수카운트.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/progremmers/level1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progremmers/level1/Test.java" afterDir="false" />
     </list>
@@ -50,36 +49,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sprtm/OneDrive/Desktop/Plugin dev/1.20.1/BattleMod/BattleMod&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.AbstractTest.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.LambdaTest.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Miro.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.SelectOrange.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Test.executor&quot;: &quot;Debug&quot;,
-    &quot;애플리케이션.Test2.executor&quot;: &quot;Debug&quot;,
-    &quot;애플리케이션.stream.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.test.Test.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.약수.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.약수갯수.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.약수카운트.executor&quot;: &quot;Debug&quot;,
-    &quot;애플리케이션.자릿수.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.짝지어제거.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/sprtm/OneDrive/Desktop/Plugin dev/1.20.1/BattleMod/BattleMod",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.AbstractTest.executor": "Run",
+    "애플리케이션.LambdaTest.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Miro.executor": "Run",
+    "애플리케이션.SelectOrange.executor": "Run",
+    "애플리케이션.Test.executor": "Run",
+    "애플리케이션.Test2.executor": "Debug",
+    "애플리케이션.stream.Main.executor": "Run",
+    "애플리케이션.test.Test.executor": "Run",
+    "애플리케이션.약수.executor": "Run",
+    "애플리케이션.약수갯수.executor": "Run",
+    "애플리케이션.약수카운트.executor": "Debug",
+    "애플리케이션.자릿수.executor": "Run",
+    "애플리케이션.짝지어제거.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="optional.test3" />
@@ -300,14 +299,9 @@
       <workItem from="1750319321711" duration="2311000" />
       <workItem from="1750328802880" duration="2265000" />
       <workItem from="1750334102660" duration="9000" />
-    </task>
-    <task id="LOCAL-00004" summary="commit merge">
-      <option name="closed" value="true" />
-      <created>1744612130304</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1744612130304</updated>
+      <workItem from="1750457610948" duration="34000" />
+      <workItem from="1750498457813" duration="3000" />
+      <workItem from="1750721205919" duration="1983000" />
     </task>
     <task id="LOCAL-00005" summary="commit merge">
       <option name="closed" value="true" />
@@ -693,7 +687,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748685309172</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1750457631762</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1750457631762</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -736,6 +738,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/progremmers/level1/Test.java</url>
+          <line>8</line>
+          <properties class="progremmers.level1.Test" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/progremmers/Test2.java</url>
