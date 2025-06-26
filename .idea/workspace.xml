@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/startkot/StartKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/startkot/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyTestRoom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyTestRoom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/progremmers/level1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progremmers/level1/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin.MainKt.executor": "Run",
     "Kotlin.StartKotlin (1).executor": "Run",
     "Kotlin.StartKotlin.executor": "Run",
     "Kotlin.StartKotlinKt.executor": "Run",
@@ -70,7 +67,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "preferences.updates",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.AbstractTest.executor": "Run",
     "애플리케이션.LambdaTest.executor": "Run",
@@ -93,20 +90,7 @@
       <recent name="optional.test3" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.StartKotlin (1)">
-    <configuration name="약수카운트" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수카운트" />
-      <module name="MyTestRoom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="progremmers.level1.약수.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="progremmers.level1.Test" />
       <module name="MyTestRoom" />
@@ -159,6 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="startkot.MainKt" />
+      <module name="MyTestRoom" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StartKotlin (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="startkot.StartKotlin" />
       <module name="MyTestRoom" />
@@ -182,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.StartKotlin (1)" />
         <item itemvalue="Kotlin.StartKotlin" />
         <item itemvalue="Kotlin.StartKotlinKt" />
         <item itemvalue="애플리케이션.Test" />
-        <item itemvalue="애플리케이션.약수카운트" />
       </list>
     </recent_temporary>
   </component>
@@ -293,15 +284,9 @@
       <workItem from="1750457610948" duration="34000" />
       <workItem from="1750498457813" duration="3000" />
       <workItem from="1750721205919" duration="2268000" />
-      <workItem from="1750842115776" duration="3850000" />
-    </task>
-    <task id="LOCAL-00006" summary="commit merge">
-      <option name="closed" value="true" />
-      <created>1744614988529</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1744614988529</updated>
+      <workItem from="1750842115776" duration="4136000" />
+      <workItem from="1750912842901" duration="168000" />
+      <workItem from="1750913023452" duration="104000" />
     </task>
     <task id="LOCAL-00007" summary="commit merge">
       <option name="closed" value="true" />
@@ -687,7 +672,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750723470250</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1750847231181</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1750847231181</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -733,7 +726,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/progremmers/level1/Test.java</url>
-          <line>7</line>
+          <line>5</line>
           <properties class="progremmers.level1.Test" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
