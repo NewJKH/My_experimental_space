@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/startkot/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/startkot/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -285,15 +286,7 @@
       <workItem from="1750721205919" duration="2268000" />
       <workItem from="1750842115776" duration="4136000" />
       <workItem from="1750912842901" duration="168000" />
-      <workItem from="1750913023452" duration="349000" />
-    </task>
-    <task id="LOCAL-00008" summary="commit merge">
-      <option name="closed" value="true" />
-      <created>1744616795581</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1744616795581</updated>
+      <workItem from="1750913023452" duration="1690000" />
     </task>
     <task id="LOCAL-00009" summary="commit merge">
       <option name="closed" value="true" />
@@ -679,7 +672,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750913132532</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1750913589045</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1750913589045</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
