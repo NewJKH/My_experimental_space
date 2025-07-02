@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/progremmers/level1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progremmers/level1/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,14 +290,8 @@
       <workItem from="1750935503514" duration="1902000" />
       <workItem from="1750938400672" duration="2764000" />
       <workItem from="1750990707099" duration="42000" />
-    </task>
-    <task id="LOCAL-00010" summary="commit merge">
-      <option name="closed" value="true" />
-      <created>1744621248381</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1744621248381</updated>
+      <workItem from="1751092853196" duration="32000" />
+      <workItem from="1751110586102" duration="8000" />
     </task>
     <task id="LOCAL-00011" summary="commit merge">
       <option name="closed" value="true" />
@@ -684,7 +677,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750916268339</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1751092874974</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1751092874974</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
