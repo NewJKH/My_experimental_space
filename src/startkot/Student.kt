@@ -1,4 +1,3 @@
 package startkot
 
-class Student(val name:String, val age:Int) {
-}
+class Student(val id:Int, val name:String, val age:Int, val gender:String)

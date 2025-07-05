@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/startkot/KtNull.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/startkot/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/startkot/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/startkot/StartKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/startkot/StartKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/startkot/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/startkot/Student.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Debug&quot;,
     &quot;Kotlin.StartKotlin (1).executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.StartKotlin.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.StartKotlinKt.executor&quot;: &quot;Run&quot;,
@@ -89,7 +94,7 @@
       <recent name="optional.test3" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Test">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="약수갯수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수갯수" />
       <module name="MyTestRoom" />
@@ -172,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Test" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="애플리케이션.Test" />
         <item itemvalue="Kotlin.StartKotlin (1)" />
         <item itemvalue="Kotlin.StartKotlin" />
         <item itemvalue="Kotlin.StartKotlinKt" />
@@ -292,14 +297,8 @@
       <workItem from="1750990707099" duration="42000" />
       <workItem from="1751092853196" duration="32000" />
       <workItem from="1751110586102" duration="8000" />
-    </task>
-    <task id="LOCAL-00011" summary="commit merge">
-      <option name="closed" value="true" />
-      <created>1744679253103</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1744679253103</updated>
+      <workItem from="1751425847845" duration="9703000" />
+      <workItem from="1751685705723" duration="21000" />
     </task>
     <task id="LOCAL-00012" summary="commit merge">
       <option name="closed" value="true" />
@@ -685,7 +684,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751092874974</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1751425936526</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1751425936527</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -753,6 +760,11 @@
           <url>file://$PROJECT_DIR$/src/progremmers/Test2.java</url>
           <line>22</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/domain/Student.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
