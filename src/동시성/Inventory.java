@@ -1,13 +1,16 @@
 package 동시성;
 
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Inventory {
 	private int stock;
+	private final ReentrantLock lock = new ReentrantLock();
 
 	public Inventory(int stock) {
 		this.stock = stock;
 	}
-	public synchronized void decreaseStock() {
+	public void decreaseStock() {
+		lock.lock();
 		if (stock > 0) {
 			try {
 				Thread.sleep(100);
@@ -19,5 +22,6 @@ public class Inventory {
 		} else {
 			System.out.println(Thread.currentThread().getName() + " 구매 실패. 재고 없음.");
 		}
+		lock.unlock();
 	}
 }
