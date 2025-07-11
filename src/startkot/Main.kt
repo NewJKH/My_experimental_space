@@ -26,7 +26,7 @@ fun main() {
 //    println("값 = "+(it+5))
 
 //    var t = sum(1,3);
-    solution(arrayOf(1,2,3),1)
+//    solution(arrayOf(1,2,3),1)
 }
 fun sum(va1:Int, va2:Int): Int{
     return va1+va2

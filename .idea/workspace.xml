@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/startkot/KtNull.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/알고리즘/B트리/B_Plus_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/알고리즘/B트리/B_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/알고리즘/B트리/B__SQUARE_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/알고리즘/B트리/Binary_Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/startkot/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/startkot/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/startkot/StartKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/startkot/StartKotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/startkot/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/startkot/Student.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +24,8 @@
         <option value="Enum" />
         <option value="Record" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,7 +57,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.StartKotlin (1).executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.StartKotlin.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.StartKotlinKt.executor&quot;: &quot;Run&quot;,
@@ -65,7 +66,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sprtm/OneDrive/Desktop/sparta/demo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sprtm/OneDrive/Desktop/Plugin dev/1.21/Guidance/Guidance&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -74,6 +75,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
     &quot;애플리케이션.AbstractTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.B_Tree.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.LambdaTest.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.Miro.executor&quot;: &quot;Run&quot;,
@@ -94,13 +96,26 @@
       <recent name="optional.test3" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="약수갯수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progremmers.level1.약수.약수갯수" />
+  <component name="RunManager" selected="애플리케이션.B_Tree">
+    <configuration name="자릿수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progremmers.level1.자릿수.자릿수" />
       <module name="MyTestRoom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="progremmers.level1.약수.*" />
+          <option name="PATTERN" value="progremmers.level1.자릿수.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="알고리즘.B트리.B_Tree" />
+      <module name="MyTestRoom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="알고리즘.B트리.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,25 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="짝지어제거" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progremmers.level2.짝지어.짝지어제거" />
+    <configuration name="test.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
       <module name="MyTestRoom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="progremmers.level2.짝지어.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="자릿수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progremmers.level1.자릿수.자릿수" />
-      <module name="MyTestRoom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="progremmers.level1.자릿수.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,27 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartKotlin" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kotlin.StartKotlin" />
-      <module name="MyTestRoom" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StartKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kotlin.StartKotlinKt" />
-      <module name="MyTestRoom" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.B_Tree" />
+        <item itemvalue="애플리케이션.test.Test" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="애플리케이션.Test" />
         <item itemvalue="Kotlin.StartKotlin (1)" />
-        <item itemvalue="Kotlin.StartKotlin" />
-        <item itemvalue="Kotlin.StartKotlinKt" />
       </list>
     </recent_temporary>
   </component>
@@ -298,15 +286,11 @@
       <workItem from="1751092853196" duration="32000" />
       <workItem from="1751110586102" duration="8000" />
       <workItem from="1751425847845" duration="9703000" />
-      <workItem from="1751685705723" duration="21000" />
-    </task>
-    <task id="LOCAL-00012" summary="commit merge">
-      <option name="closed" value="true" />
-      <created>1744689847406</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1744689847406</updated>
+      <workItem from="1751685705723" duration="3269000" />
+      <workItem from="1751718689744" duration="2851000" />
+      <workItem from="1751722940109" duration="116000" />
+      <workItem from="1751874492632" duration="611000" />
+      <workItem from="1751882634418" duration="704000" />
     </task>
     <task id="LOCAL-00013" summary="commit merge">
       <option name="closed" value="true" />
@@ -692,7 +676,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751425936527</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1751685739588</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1751685739588</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -727,15 +719,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/Test.java</url>
-          <line>3</line>
-          <properties class="test.Test" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/progremmers/Test2.java</url>
           <line>18</line>
