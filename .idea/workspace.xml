@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/알고리즘/B트리/B_Plus_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/알고리즘/B트리/B_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/알고리즘/B트리/B__SQUARE_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/알고리즘/B트리/Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/동시성/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/동시성/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/동시성/동시성_테스트.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/startkot/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/startkot/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +81,7 @@
     &quot;애플리케이션.Test2.executor&quot;: &quot;Debug&quot;,
     &quot;애플리케이션.stream.Main.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.test.Test.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.동시성_테스트.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.약수.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.약수갯수.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.약수카운트.executor&quot;: &quot;Debug&quot;,
@@ -96,20 +94,7 @@
       <recent name="optional.test3" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.B_Tree">
-    <configuration name="자릿수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progremmers.level1.자릿수.자릿수" />
-      <module name="MyTestRoom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="progremmers.level1.자릿수.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.동시성_테스트">
     <configuration name="B_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="알고리즘.B트리.B_Tree" />
       <module name="MyTestRoom" />
@@ -129,6 +114,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="progremmers.level1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="동시성_테스트" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="동시성.동시성_테스트" />
+      <module name="MyTestRoom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="동시성.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,20 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartKotlin (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="startkot.StartKotlin" />
-      <module name="MyTestRoom" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.동시성_테스트" />
         <item itemvalue="애플리케이션.B_Tree" />
         <item itemvalue="애플리케이션.test.Test" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="애플리케이션.Test" />
-        <item itemvalue="Kotlin.StartKotlin (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -291,14 +282,8 @@
       <workItem from="1751722940109" duration="116000" />
       <workItem from="1751874492632" duration="611000" />
       <workItem from="1751882634418" duration="704000" />
-    </task>
-    <task id="LOCAL-00013" summary="commit merge">
-      <option name="closed" value="true" />
-      <created>1744698721053</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1744698721053</updated>
+      <workItem from="1752192434865" duration="6654000" />
+      <workItem from="1752207006284" duration="1125000" />
     </task>
     <task id="LOCAL-00014" summary="commit merge">
       <option name="closed" value="true" />
@@ -684,7 +669,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751685739588</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1752192485267</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1752192485268</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
