@@ -5,6 +5,8 @@ import java.util.concurrent.Executors;
 
 public class 동시성_테스트 {
 	public static void main(String[] args) {
+		Boolean b = Boolean.valueOf("null");
+		System.out.println("b = " + b);
 		concurrency();
 		// parallelism();
 	}
