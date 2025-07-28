@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efe33c0-8a21-4e1a-845b-ae9f57f4ba7c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/동시성/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/동시성/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/동시성/동시성_테스트.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -283,31 +280,9 @@
       <workItem from="1751874492632" duration="611000" />
       <workItem from="1751882634418" duration="704000" />
       <workItem from="1752192434865" duration="6654000" />
-      <workItem from="1752207006284" duration="1125000" />
-    </task>
-    <task id="LOCAL-00014" summary="commit merge">
-      <option name="closed" value="true" />
-      <created>1744701179693</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1744701179693</updated>
-    </task>
-    <task id="LOCAL-00015" summary="commit merge">
-      <option name="closed" value="true" />
-      <created>1744702791843</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1744702791843</updated>
-    </task>
-    <task id="LOCAL-00016" summary="commit merge">
-      <option name="closed" value="true" />
-      <created>1744705898865</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1744705898865</updated>
+      <workItem from="1752207006284" duration="3051000" />
+      <workItem from="1753235129388" duration="685000" />
+      <workItem from="1753658082266" duration="58000" />
     </task>
     <task id="LOCAL-00017" summary="commit merge">
       <option name="closed" value="true" />
@@ -677,7 +652,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752192485268</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1752211064367</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1752211064367</updated>
+    </task>
+    <task id="LOCAL-00064" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1752211076290</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1752211076290</updated>
+    </task>
+    <task id="LOCAL-00065" summary="update: function Interface">
+      <option name="closed" value="true" />
+      <created>1753658099539</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1753658099539</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
