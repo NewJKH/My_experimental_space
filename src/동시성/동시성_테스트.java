@@ -25,6 +25,7 @@ public class 동시성_테스트 {
 		executor.submit(new Task("병렬성)작업 A"));
 		executor.submit(new Task("병렬성)작업 B"));
 
+
 		executor.shutdown();
 	}
 }
