@@ -22,6 +22,7 @@ public class 동시성_테스트 {
 	public static void parallelism(){
 		ExecutorService executor = Executors.newFixedThreadPool(2);
 
+
 		executor.submit(new Task("병렬성)작업 A"));
 		executor.submit(new Task("병렬성)작업 B"));
 
