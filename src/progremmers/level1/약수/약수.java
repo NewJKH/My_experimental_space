@@ -6,6 +6,7 @@ public class 약수 {
         long start;
         long end;
 
+
         start = System.nanoTime();
         일반(n);
         end = System.nanoTime();
